@@ -3,3 +3,14 @@ function submit(){
     var password= document.getElementById('email')
     console.log(name.value,password.value)
 }
+
+
+function seemore(){
+    var seemore=document.getElementById('seemore')
+    var btn=document.getElementById('btn')
+    seemore="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iure eveniet et odit quae ipsa architecto adipisci repellendus vitae vero. Illum animi magni maxime deserunt eius earum asperiores autem similique!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iure eveniet et odit quae ipsa architecto adipisci repellendus vitae vero. Illum animi magni maxime deserunt eius earum asperiores autem similique!"
+    console.log(seemore)
+    document.getElementById('seemore').innerHTML=seemore
+    btn.innerHTML="see less"
+
+}
